@@ -1,0 +1,13 @@
+<resources>
+  <string name="app_name">MoD</string>
+  <string name="label_word">Word</string>
+  <string name="label_translate">Translate</string>
+  <string name="label_add_button">Add</string>
+  <string name="empty_text_view">Add your own words</string>
+  <string name="dialog_label">What you wanna do?</string>
+  <string name="delete_label">Delete</string>
+  <string name="cancel_label">Cancel</string>
+  <string name="confirm_label">Confirm</string>
+  <string name="no_items">No Words</string>
+  <string name="edit_dialog_text">Edit</string>
+</resources>

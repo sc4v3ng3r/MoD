@@ -1,0 +1,13 @@
+<resources>
+  <string name="app_name">MoD</string>
+  <string name="label_word">Palavra</string>
+  <string name="label_translate">Tradução</string>
+  <string name="label_add_button">Adicionar</string>
+  <string name="empty_text_view">Campo palavra vazio!</string>
+  <string name="dialog_label">O que deseja fazer?</string>
+  <string name="delete_label">Excluir</string>
+  <string name="cancel_label">Cancelar</string>
+  <string name="no_items">Dicionário vazio</string>
+  <string name="confirm_label">Confirm</string>
+  <string name="edit_dialog_text">Edit</string>
+</resources>
