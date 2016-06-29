@@ -47,8 +47,10 @@ public class Word implements Parcelable{
 
   public String getTranslateStrings(){
     String translates = "";
+
     for(String s: m_translateList)
       translates+=s;
+
     return translates;
   }
 

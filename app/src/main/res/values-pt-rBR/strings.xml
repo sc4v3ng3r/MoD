@@ -8,6 +8,6 @@
   <string name="delete_label">Excluir</string>
   <string name="cancel_label">Cancelar</string>
   <string name="no_items">Dicionário vazio</string>
-  <string name="confirm_label">Confirm</string>
-  <string name="edit_dialog_text">Edit</string>
+  <string name="confirm_label">Confirmar</string>
+  <string name="edit_dialog_text">Editar</string>
 </resources>

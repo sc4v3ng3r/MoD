@@ -26,7 +26,7 @@ import java.util.zip.Inflater;
  */
 
 
-public class Dictionary extends BaseAdapter{
+public class Dictionary extends BaseAdapter {
   private Context m_context;
   private ArrayList<Word> m_wordList;
 
@@ -37,7 +37,7 @@ public class Dictionary extends BaseAdapter{
   }
 
   @Override
-  public int getCount() { return m_wordList.size();}
+  public int getCount() {  return m_wordList.size(); }
 
   @Override
   public Word getItem(int position) { return m_wordList.get(position); }
@@ -97,50 +97,4 @@ public class Dictionary extends BaseAdapter{
     notifyDataSetChanged();
     return obj;
   }
-
-
 }
-/*
-public class Dictionary extends ArrayAdapter<Word>{
-  private Context m_context;
-  public static final String DICTIONARY_DATA_TO_PARCEL = "dictionary_parceleble_data";
-
-  // Contexto      Lista com objetos
-  public Dictionary(Context context, ArrayList<Word> objects) {
-    Mas pode existir um construtor que antes do arrayList venha com o Id do layout!
-    super(context, R.layout.word_layout, objects);
-    m_context = context;
-  }
-
-  public Dictionary(Context context, int layoutId, ArrayList<Word> objects){
-    super(context, layoutId, objects);
-    m_context = context;
-  }
-
-
-  @Override
-  public View getView(int position, View view, ViewGroup parent){
-
-    LayoutInflater inflater = (LayoutInflater) m_context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-    View myView = inflater.inflate(R.layout.word_layout, parent, false);
-
-
-    TextView wordView = (TextView) myView.findViewById(R.id.wordView);
-    TextView translateView = (TextView) myView.findViewById(R.id.translateView);
-    ImageView logo = (ImageView) myView.findViewById(R.id.logoView);
-
-    logo.setImageResource(R.drawable.list_icon);
-    wordView.setText( getItem(position).getWord() );
-    translateView.setText(getItem(position).getTranslateStrings());
-
-    return myView;
-  }
-
-  @Override
-  public void add(Word w1){
-    super.add(w1);
-    this.sort( new WordComparator());
-  }
-
-}
-*/
